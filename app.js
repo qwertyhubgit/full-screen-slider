@@ -27,9 +27,7 @@ function changeSlide(direction) {
     } else if (direction === 'down') {
         slideIndex--
         if (slideIndex < 0) {
-            console.log(slideIndex);
             slideIndex = slidesCount - 1
-            console.log(slideIndex)
         }
     }
     const height = container.clientHeight;
